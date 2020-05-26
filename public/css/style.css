@@ -1,0 +1,122 @@
+/* Main Color: #1c5996; */
+/* Secondary Color: #964b1c; */
+
+
+/* Constant */
+
+
+body {
+	padding-top: 56px;
+}
+
+
+/* Home page */
+
+.search-form {
+	margin-left: 250px;
+}
+.search-form,
+.search-form input {
+	width: 500px !important;
+	border-radius: 0;
+}
+
+.links ul {
+	margin-right: 40px;
+}
+.links ul li {
+	margin-right: 10px;
+}
+
+.navbar  {
+	background-color: #1c5996!important;
+}
+
+.navbar div a.navbar-brand,
+.navbar div ul li a.nav-link  {
+	color: #fff!important;
+}
+
+.navbar span.logo {
+	background-color: #fff;
+	color: #1c5996;
+	padding: 8px;
+	border-radius: 10px 20px;
+}
+
+.home_picture{
+	background-color: aqua;
+	background-image: url(../images/home_default2.jpg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover	;
+	background-origin: content-box;
+	
+}
+/* copy start */
+
+
+.home_picture .background_text {
+	padding-top: 180px;
+	padding-left: 40px;
+	font-family: Lato;
+	color: #fff;
+
+}
+.home_picture .background_text p:nth-child(1) {
+	font-size: 60px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.home_picture .background_text p:nth-child(2) {
+	font-size: 25px;
+	margin-top: -5px;
+	padding-top: 0;
+	font-weight: 400;
+	margin-left: 5px;
+	color: #cccccc;
+
+}
+.home_picture .background_text p strong {
+	color: #1c5996;
+}
+.home_picture .background_text p span.number {
+	color: #1c5996;
+}
+
+.home_picture .background_text .actions {
+	width: 450px;
+	margin: 40px auto;
+}
+.home_picture .background_text .actions a {
+	width: 200px;
+	border-radius: 30px;
+	font-size: 22px;
+	font-weight: 400;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	color: #e0e0e0;
+	transition: .3s ease-in-out;
+}
+.home_picture .background_text .actions a:nth-child(2) {
+	margin-left: 5px;
+	border-color: #fff;
+	color: #1c5996;
+}
+
+.home_picture .background_text .actions a:hover {
+	color: #fff;
+}
+
+.home_picture .background_text .actions a:nth-child(2):hover {
+	background-color: #1c5996;
+	border-color: #1c5996;
+	color: #fff;
+}
+.btn-primary {
+	background-color: #1c5996;
+	border-color: #1c5996;
+}
+
+
+/* End copy */
